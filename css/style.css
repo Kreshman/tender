@@ -353,7 +353,7 @@ img {
 }
 
 .reviews{
-    background-color: #fff;
+    background-color: #FBFBFB;;
 }
 
 .reviews__title{
@@ -365,6 +365,42 @@ img {
     color: #201D1D;
 }
 
+.reviews__block{
+    display: flex;
+}
+
+.reviews__info{
+    padding-left: 16px;
+    max-width: 495px;
+    padding-right: 64px;
+}
+
+.reviews__name{
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    padding-bottom: 4px;
+}
+
+.reviews__post{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #969595;
+    padding-bottom: 12px;
+}
+
+.reviews__text{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #201D1D;
+}
+
+.reviews__text:not(:last-child){
+    margin-bottom: 10px;
+}
 
 .contacts{
     background-color: #232630;
@@ -403,6 +439,7 @@ img {
     display: flex;
     flex-direction: column;
     padding-left: 24px;
+    align-items: flex-start;
 }
 
 .contacts__name{
@@ -477,4 +514,105 @@ img {
     line-height: 20px;
     color: #FFFFFF;
     margin-bottom: 32px;
+}
+
+.footer__container{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 63px;
+}
+
+.footer__logo{
+    align-items: flex-start;
+}
+.footer__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__support{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer__link{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #969595;
+}
+
+.footer__link:not(:last-child){
+    margin-bottom: 8px;
+}
+
+.footer__link-nav{
+    font-family: "Roboto Condensed",sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #201D1D;
+}
+
+.footer__link-nav:not(:last-child){
+    margin-bottom: 8px;
+}
+
+.footer__center{
+    display: flex;
+}
+
+.footer__list-one{
+    padding-bottom: 40px;
+}
+
+.footer__list-three{
+    padding-bottom: 40px;
+}
+
+.nav-one{
+    padding-right: 164px;
+}
+
+.footer__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__contacts{
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FF3214;
+}
+
+.footer__adress{
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #969595;
+}
+
+.footer__avtor{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #969595;
+}
+
+.footer__avtor:not(:last-child){
+    padding-right: 565px;
+}
+
+.footer__log{
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 20px;
+    border-top: 1px solid #F3F3F3;
 }
